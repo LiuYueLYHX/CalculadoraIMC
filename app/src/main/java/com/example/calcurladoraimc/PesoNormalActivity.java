@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class PesoNormalActivity extends AppCompatActivity {
     private TextView EditPesoNormal;
-    TextView MgsPesoNormal;
+    private TextView MgsPesoNormal;
     private Button btnFecharPesoNormal;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
