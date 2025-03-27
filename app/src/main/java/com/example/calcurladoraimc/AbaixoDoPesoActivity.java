@@ -29,10 +29,11 @@ public class AbaixoDoPesoActivity extends AppCompatActivity {
         double peso = bundle.getDouble("peso");
         double altura = bundle.getDouble("altura");
         double IMC = bundle.getDouble("IMC");
+        String IMCDecimal = String.format("%.2f",IMC);
         EditAbaixoDoPeso = findViewById(R.id.EditAbaixoDoPeso);
         EditAbaixoDoPeso.setText("Peso: " + peso + "\n"
                                     + "Altura: " + altura + "\n"
-                                        +"IMC: " + IMC + "\n"
+                                        +"IMC: " + IMCDecimal + "\n"
                                             +"classificação: " + "Abaixo do peso");
 
         MsgAbaixoDoPeso = findViewById(R.id.MsgAbaixoDoPeso);

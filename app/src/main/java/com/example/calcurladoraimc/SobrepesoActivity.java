@@ -28,10 +28,11 @@ public class SobrepesoActivity extends AppCompatActivity {
         Double peso = bundle.getDouble("peso");
         Double altura = bundle.getDouble("altura");
         Double IMC = bundle.getDouble("IMC");
+        String IMCDecimal = String.format("%.2f",IMC);
         EditSobrePeso = findViewById(R.id.EditSobrePeso);
         EditSobrePeso.setText("Peso: " + peso + "\n"
                 + "Altura: " + altura + "\n"
-                +"IMC: " + IMC + "\n"
+                +"IMC: " + IMCDecimal + "\n"
                 +"classificação: " + "Sobrepeso");
 
         MgsSobrePeso = findViewById(R.id.MgsSobrePeso);

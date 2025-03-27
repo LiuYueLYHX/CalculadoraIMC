@@ -27,10 +27,11 @@ public class Obesidade2Activity extends AppCompatActivity {
         Double peso = bundle.getDouble("peso");
         Double altura = bundle.getDouble("altura");
         Double IMC = bundle.getDouble("IMC");
+        String IMCDecimal = String.format("%.2f",IMC);
         EditObesidade2 = findViewById(R.id.EditObesidade2);
         EditObesidade2.setText("Peso: " + peso + "\n"
                 + "Altura: " + altura + "\n"
-                +"IMC: " + IMC + "\n"
+                +"IMC: " + IMCDecimal + "\n"
                 +"classificação: " + "Obesidade 2");
 
         MgsObesidade2 = findViewById(R.id.MgsObesidade2);

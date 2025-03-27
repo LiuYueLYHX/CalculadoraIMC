@@ -27,10 +27,11 @@ public class PesoNormalActivity extends AppCompatActivity {
         Double peso = bundle.getDouble("peso");
         Double altura = bundle.getDouble("altura");
         Double IMC = bundle.getDouble("IMC");
+        String IMCDecimal = String.format("%.2f",IMC);
         EditPesoNormal = findViewById(R.id.EditPesoNormal);
         EditPesoNormal.setText("Peso: " + peso + "\n"
                 + "Altura: " + altura + "\n"
-                +"IMC: " + IMC + "\n"
+                +"IMC: " + IMCDecimal + "\n"
                 +"classificação: " + "Peso Normal");
 
         MgsPesoNormal = findViewById(R.id.MgsPesoNormal);
