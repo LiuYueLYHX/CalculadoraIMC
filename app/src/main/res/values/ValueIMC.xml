@@ -27,10 +27,10 @@
         <string name="btnCalcIMC">Calculadora IMC</string>
 
         <!--peso-->
-        <string name="peso">peso</string>
+        <string name="peso">peso(kg)</string>
 
         <!--altura-->
-        <string name="altura">altura</string>
+        <string name="altura">altura(m)</string>
 
         <!--Calcular IMC-->
         <string name="btnCalcularIMC">Calcular IMC</string>
