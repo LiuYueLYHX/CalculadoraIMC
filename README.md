@@ -15,3 +15,9 @@ A Calculadora de IMC é uma aplicação simples e interativa desenvolvida para c
 Os principais desafios durante o desenvolvimento foram:
 - **Escolha das imagens**: Encontrar imagens que se alinhassem ao estilo da aplicação foi difícil, pois procurávamos imagens que fossem tanto informativas quanto esteticamente agradáveis.
 - **Conversão de caracteres**: Como o projeto tinha suporte a diferentes idiomas, houve a necessidade de garantir que os caracteres fossem corretamente convertidos e exibidos sem erros.
+
+## Baixar APK
+
+Você pode baixar o arquivo APK da aplicação clicando no link abaixo:
+
+[Baixar APK](https://github.com/LiuYueLYHX/CalculadoraIMC/releases/tag/v1.0)
