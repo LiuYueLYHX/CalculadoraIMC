@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Cores da Calculadora IMC-->
+        <!--    Cabeçalhos e Destaques:-->
+        <color name="VerdeEscuro">#006341</color>
+
+        <!--    Botões e Links:-->
+        <color name="VerdeClaro">#00A859</color>
+
+        <!--    Textos Secundários:-->
+        <color name="CinzaEscuro">#4D4D4D</color>
+
+        <!--    Bordas e Divisores:-->
+        <color name="CinzaClaro">#B3B3B3</color>
+
+        <!--    Fundo Principal:-->
+        <color name="Branco">#FFFFFF</color>
+
+
+    <!--    imagens de Calculadora IMC-->
+        <!--IMC-->
+        <drawable name="ImgIMC">@drawable/icone</drawable>
+
+    <!--    Values de Calculadora IMC-->
+        <!--Buttom da Calculadora IMC da primeira tela-->
+        <string name="btnCalcIMC">Calculadora IMC</string>
+</resources>
