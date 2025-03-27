@@ -21,7 +21,25 @@
         <!--IMC-->
         <drawable name="ImgIMC">@drawable/icone</drawable>
 
-    <!--    Values de Calculadora IMC-->
-        <!--Buttom da Calculadora IMC da primeira tela-->
+    <!--    Values de Calculadora IMC da primeira tela-->
+        <!--Buttom da Calculadora-->
         <string name="btnCalcIMC">Calculadora IMC</string>
+
+        <!--peso-->
+        <string name="peso">peso</string>
+
+        <!--altura-->
+        <string name="altura">altura</string>
+
+        <!--Calcular IMC-->
+        <string name="btnCalcularIMC">Calcular IMC</string>
+
+        <!--Limpar-->
+        <string name="btnLimpar">Limpar</string>
+
+        <!--Fechar-->
+        <string name="btnFechar">Fechar</string>
+
+
+
 </resources>

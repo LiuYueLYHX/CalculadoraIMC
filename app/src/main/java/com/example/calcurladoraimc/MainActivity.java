@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnCalcIMC ;
+    private Button btnCalcIMC ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
