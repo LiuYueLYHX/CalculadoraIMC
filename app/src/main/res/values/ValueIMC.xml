@@ -20,6 +20,7 @@
     <!--    imagens de Calculadora IMC-->
         <!--IMC-->
         <drawable name="ImgIMC">@drawable/icone</drawable>
+        <drawable name="ImgCalcIMC">@drawable/bmifinal</drawable>
 
     <!--    Values de Calculadora IMC da primeira tela-->
         <!--Buttom da Calculadora-->
