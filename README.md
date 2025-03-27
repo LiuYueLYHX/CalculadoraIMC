@@ -21,3 +21,4 @@ Os principais desafios durante o desenvolvimento foram:
 Você pode baixar o arquivo APK da aplicação clicando no link abaixo:
 
 [Baixar APK](https://github.com/LiuYueLYHX/CalculadoraIMC/releases/download/v1.0/app-debug.apk)
+[Baixar ZIP](https://github.com/LiuYueLYHX/CalculadoraIMC/archive/refs/tags/v1.0.zip)
